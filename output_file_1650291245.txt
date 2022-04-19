@@ -1,0 +1,42 @@
+graph= 1
+result p= NA 1 1 2 2 5
+result d= 0 1 5 4 3 5
+from= x to= x path= x weight= 0
+from= x to= a path= x a weight= 1
+from= x to= b path= x b weight= 5
+from= x to= c path= x a c weight= 4
+from= x to= d path= x a d weight= 3
+from= x to= z path= x a d z weight= 5
+
+graph= 2
+result p= NA 3 8 7 2 1 10 12 6 11 6 7
+result d= 0 11 9 14 13 1 5 8 12 3 2 6
+from= a to= a path= a weight= 0
+from= a to= b path= a f k j g l h c b weight= 11
+from= a to= c path= a f k j g l h c weight= 9
+from= a to= d path= a f k j g d weight= 14
+from= a to= e path= a f k j g l h c b e weight= 13
+from= a to= f path= a f weight= 1
+from= a to= g path= a f k j g weight= 5
+from= a to= h path= a f k j g l h weight= 8
+from= a to= i path= a f i weight= 12
+from= a to= j path= a f k j weight= 3
+from= a to= k path= a f k weight= 2
+from= a to= l path= a f k j g l weight= 6
+
+graph= 3
+result p= 2 3 8 8 2 3 3 NA 5 5 8 7
+result d= 11 3 1 10 5 11 9 0 7 13 9 10
+from= h to= a path= h c b a weight= 11
+from= h to= b path= h c b weight= 3
+from= h to= c path= h c weight= 1
+from= h to= d path= h d weight= 10
+from= h to= e path= h c b e weight= 5
+from= h to= f path= h c f weight= 11
+from= h to= g path= h c g weight= 9
+from= h to= h path= h weight= 0
+from= h to= i path= h c b e i weight= 7
+from= h to= j path= h c b e j weight= 13
+from= h to= k path= h k weight= 9
+from= h to= l path= h c g l weight= 10
+
